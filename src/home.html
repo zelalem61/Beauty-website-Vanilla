@@ -4,137 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Beauty Cosmotics</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.jpg">
+    <link rel="stylesheet" href="home.css">
 </head>
-<body>
-    <header aria-label="head">
-        <img src="/images/menu bar.jpg" alt="menu-bar">
-            <div>
-                <div>
-                    <img src="/images/logo1.jpg" alt="website-logo">
-                </div>
-                <a href="#"><span> BEAUTY</span> COSMOTICS</a>
-            </div>
-        <nav>
+<body class="body">
+    <header aria-label="head" class="header">
+        <nav class="navigation">
+            <img src="images/logo1.jpg" alt="website logo" class="logo-image">
+        
+                <a href="#" class="website-name"><span class="website-name__span"> BEAUTY</span> COSMOTICS</a>
             
-                <a href="home.html">HOME</a>
-                <a href="blog.html">BLOG</a>
-                <a href="about us.html">ABOUT</a>
-                <a href="product.html">PRODUCTS</a>
-                <a href="contact us.html">CONTACT US</a>
+                <input type="checkbox" id="check" class="check">
+                <label for="check" class="menu-bar">
+                    <img src="/images/menu bar.jpg" alt="menu-bar__image" class="menu-bar__image">
+                </label>
+            <ul class="head-list">
+                <li class="head-list__items"><a class="head-list__anchor" href="index.html">HOME</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="blog.html">BLOG</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="about us.html">ABOUT</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="product.html">PRODUCTS</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="contact us.html">CONTACT US</a></li>
+            </ul>
         </nav>
     </header>
 
     <div>
-        <img src="images/home img.jpg" alt="image at top">
-    </div>
+        <img src="images/home img.jpg" alt="image at the brgining" class="top-image">
+    </div>     
     <main>
         <section>   
-            <div>
-                <h2>Featured products</h2>
-                <div>
-                    
-                    <a href="blog detail.html">
-                        <div>
-                            <img src="/images/All natural hair oil.jpg" alt="product image-1"><p>All Natural Hair Oil     <br><span > 300 ETB</span>    </p>
-                        </div>
-                    </a>
-                    <a href="blog detail.html">
-                        <div>
-                            <img src="/images/Amla Hair oil.jpg" alt="product image-2"><p>Amla Hair oil   <br><span > 250 ETB </span>  </p>
-                        </div>
-                    </a>
-                    <a href="blog detail.html">
-                        <div>
-                            <img src="/images/aveeno baby calming.jpg" alt="product image-3"><p >Aveeno Baby Cream  <br><span> 300 ETB</span>   </p>
-                        </div>
-                    </a>
-                    <a href="blog detail.html">
-                        <div>
-                            <img src="/images/cocoa butter.jpg" alt="product image-4"><p>Cocoa Butter Ltion   <br><span> 420 ETB</span>   </p>
-                        </div>
-                    </a>
-                    <a href="blog detail.html">
-                        <div>
-                            <img src="/images/crew conditioner.jpg" alt="product image-5"><p>Crew Conditioner    <br><span> 320 ETB</span>     </p>
-                        </div>
-                    </a>
-                    <a href="blog detail.html">
-                        <div>
-                            <img src="/images/crystal keratini.jpg" alt="product image-6"><p>Crystal Keratini   <br><span> 200 ETB</span>   </p>
-                        </div>
-                    </a>
+            <div class="container container--large">
+                <h1 class="container__name">Featured products</h1>
+                <div class="container-flex container-flex--product">       
+                    <div class="box box--product">
+                        <a class="anchors" href="blog detail.html?index=5">
+                            <img src="/images/STEM face cream.jpg" alt="product image-1" class="box__product-image box__product-image--pro"><p class="box__product-name">Stem Face Cream    <br><span class="box__product-price"> 200 ETB</span>    </h3>         
+                        </a>
+                    </div>
+                    <div class="box box--product">
+                        <a class="anchors" href="blog detail.html?index=3">
+                            <img src="/images/onion black seed hair oil.jpg" alt="product image-4" class="box__product-image box__product-image--pro"><p class="box__product-name">onion seed hair oil   <br><span class="box__product-price"> 420 ETB</span>   </h3>           
+                        </a>
+                    </div>
+                    <div class="box box--product">
+                        <a class="anchors" href="blog detail.html?index=11">
+                            <img src="/images/crew conditioner.jpg" alt="product image-3" class="box__product-image box__product-image--pro"><p class="box__product-name">Crew Conditioner <br><span class="box__product-price"> 300 ETB</span>   </h3>
+                        </a>
+                    </div>
+                    <div class="box box--product">
+                        <a class="anchors" href="blog detail.html?index=1">  
+                            <img src="/images/lot 1.jpg" alt="product image-2" class="box__product-image box__product-image--pro"><p class="box__product-name">Lush Face Cream  <br><span class="box__product-price"> 200 ETB </span>  </h3>
+                        </a>
+                    </div>
+                    <div class="box box--product">
+                        <a class="anchors" href="blog detail.html?index=4">
+                            <img src="/images/NIVEA.jpg" alt="product image-5" class="box__product-image box__product-image--pro"><p class="box__product-name">NIVEA Conditioner    <br><span class="box__product-price"> 320 ETB</span>     </h3>
+                        </a>
+                    </div>
+                    <div class="box box--product">
+                        <a class="anchors" href="blog detail.html?index=7">
+                            <img src="/images/olay.jpg" alt="product image-6" class="box__product-image box__product-image--pro"><p class="box__product-name">Olay Complete Lotion  <br><span class="box__product-price"> 200 ETB</span>   </h3>
+                        </a>
+                    </div>
                 </div>
-                <button><a href="product.html">See More</a></button>
+                <a class="anchors anchors--see-btn" href="product.html" >See More</a>
                 
             </div>
         </section>
         
         <section>
-            <div>
-                <h2>From The Blog</h2>  
-                <div >
-                    <a href="blog detail.html"><img src="/images/lavera face cream.jpg" alt="blog-image-1">
-                        <div><span> Lavera Face Cream</span> <br><span > <br>
-                            This rich cream gives intensive moisture, protects <br>
-                             dry skin and leaves it feeling soft and supple.
-                        </span></div>
-                    </a>
-                    <a href="blog detail.html"> <button>Read More</button></a>
-                </div>
-                <div >
-                    <a href="blog detail.html"><img src="/images/NIVEA.jpg" alt="blog-image-2">
-                        <div><span> NIVEA conditioner</span> <br><span > <br>
-                            NIVEA In-Shower Skin Conditioner is a hassle-free <br>
-                            way to moisturize skin while in the shower. 
-                            
-                        </span></div>
-                    </a>
-                    <a href="blog detail.html"> <button>Read More</button></a>
-                </div>
-                <div>
-                    <a href="blog detail.html"><img src="/images/Curel lotion.jpg" alt="blog-image-3">
-                        <div ><span> Curel Lotion</span> <br><span> <br>
-                            Curel Lotion is a new product for dry skin. <br>
-                            This product is said to have been clinically <br>
-                            proven to renew and repair dry skin. 
-                        </span></div>
-                    </a>
-                    <a href="blog detail.html"> <button>Read More</button></a>
+            <div class="container container--small">
+                <h2 class="container__name">From The Blog</h2>  
+                <div class="container-flex container-flex--blog">
+                    <div class="box box--blog">
+                        <a class="anchors" href="blog detail.html?index=10"><img src="/images/lavera face cream.jpg" alt="blog-image-1" class="box__product-image box__product-image--blog">
+                            <div class="box__text"><span class="box__tittle"> Lavera Face Cream</span> <span class="box__description"> 
+                                This rich cream gives intensive moisture, protects 
+                                dry skin and leaves it feeling soft and supple.
+                            </span></div>               
+                            <a href="blog detail.html?index=10" class="box__read-more"> Read More</a>
+                        </a>
+                    </div>
+                    
+                    <div class="box box--blog">
+                        <a class="anchors" href="blog detail.html?index=4"><img src="/images/NIVEA.jpg" alt="blog-image-2" class="box__product-image box__product-image--blog">
+                            <div class="box__text"><span class="box__tittle"> NIVEA conditioner</span> <span class="box__description"> 
+                                NIVEA In-Shower Skin Conditioner is a hassle-free 
+                                way to moisturize skin while in the shower. 
+                                
+                            </span></div>
+                        </a>
+                        <a href="blog detail.html?index=4" class="box__read-more"> Read More</a>
+                    </div>
+                    
+                    <div class="box box--blog">
+                        <a class="anchors" href="blog detail.html?index=12"><img src="/images/Curel lotion.jpg" alt="blog-image-3" class="box__product-image box__product-image--blog">
+                            <div class="box__text"><span class="box__tittle"> Curel Lotion</span> <span class="box__description"> 
+                                Curel Lotion is a new product for dry skin. 
+                                It is said to have clinically 
+                                proven to renew and repair dry skin. 
+                            </span></div>
+                        </a>
+                        <a href="blog detail.html?index=12" class="box__read-more"> Read More</a>
+                    </div>
+                    
                 </div>
             
             </div>
         </section>
     </main>
 
-    <footer aria-label="foot">
-        <div>
-           <div>
-            <div>
-                <p>
-                    Our 100% natural products are made with regenerative vegan ingredients that have been 
-                    scientifically shown to support a more youthful appearance.
-                </p>
-            </div>
-            <div>
-                <h3>Follow Us On Social</h3>
-                <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo"></a>
-                <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" ></a>
-                <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" ></a>
-                <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" ></a>
+    <footer aria-label="foot" class="footer">
+        <div class="foot-container">
+            <div class="row">
+                <div class="foot-conntainer__col"> 
+                    <p class="about-text2">
+                        Our 100% natural products are made with regenerative vegan ingredients that have been 
+                        scientifically shown to support a more youthful appearance.
+                    </p>
+                    
+                    <div class="social-box">
+                        <h3 class="tittle tittle--follow">Follow Us On Social</h3>
+                        <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo" class="social-box__image"></a>
+                        <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" class="social-box__image"></a>
+                        <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" class="social-box__image"></a>
+                        <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" class="social-box__image"></a>
+ 
+                    </div>
+                </div>
+                <div class="foot-container__col foot-conntainer__col--info">
+                    <h3 class="tittle">information</h3>
+                    <ul class="list">
+                        <li class="list__items"><a href="about us.html" class="list__quick-link">ABOUT US</a></li>
+                        <li class="list__items"><a href="product.html" class="list__quick-link">PRODUCTS</a></li>
+                        <li class="list__items"><a href="blog.html" class="list__quick-link">BLOG</a></li>
+                        <li class="list__items"><a href="contact us.html" class="list__quick-link">CONTACT US</a></li>
+                    </ul>
                 </div>
             </div>
-           <div>
-                <h3>information</h3>
-                <ul>
-                    <li><a href="about us.html">ABOUT US</a></li>
-                    <li><a href="product.html">PRODUCTS</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact us.html">CONTACT US</a></li>
-                </ul>
-           </div>
-           <div >Copyright &#169; All Rights Reserved 2022</div>    
-        </div>
+            <div class="copy">Copyright &#169; All Rights Reserved 2022</div>
+        </div>      
+        
     </footer>
 </body>
 </html>
