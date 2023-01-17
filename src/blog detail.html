@@ -4,44 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Details</title>
+    <title>Beauty Cosmotics</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.jpg">
+    <link rel="stylesheet" href="blog detail.css">
 </head>
-<body>
-    <header aria-label="head">
-        <img src="/images/menu bar.jpg" alt="menu-bar">
-            <div>
-                <div>
-                    <img src="/images/logo1.jpg" alt="website-logo">
-                </div>
-                <a href="#"><span> BEAUTY</span> COSMOTICS</a>
-            </div>
-        <nav>
+<body onload="getID()">
+    <header aria-label="head" class="header">
+        <nav class="navigation">
+            <img src="images/logo1.jpg" alt="website logo" class="logo-image">
+        
+                <a href="#" class="website-name"><span class="website-name__span"> BEAUTY</span> COSMOTICS</a>
             
-                <a href="home.html">HOME</a>
-                <a href="blog.html">BLOG</a>
-                <a href="about us.html">ABOUT</a>
-                <a href="product.html">PRODUCTS</a>
-                <a href="contact us.html">CONTACT US</a>
+                <input type="checkbox" id="check" class="check">
+                <label for="check" class="menu-bar">
+                    <img src="/images/menu bar.jpg" alt="menu-bar__image" class="menu-bar__image">
+                </label>
+            <ul class="head-list">
+                <li class="head-list__items"><a class="head-list__anchor" href="index.html">HOME</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="blog.html">BLOG</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="about us.html">ABOUT</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="product.html">PRODUCTS</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="contact us.html">CONTACT US</a></li>
+            </ul>
         </nav>
     </header>
+
      <main>
-        <div>
-            <div>
-                <img src="images/Curel lotion.jpg" alt="curel lotion">
-                <p><span>Curel Ultra Healing Lotion</span>  <br> <span> 200 ETB</span>
+        <div class="container">
+            <div class="product">
+                <img src="images/Curel lotion.jpg" alt="curel lotion" id="pro-image" class="product__image">
+                <p><span id="pro-name" class="product__name">Curel Ultra Healing Lotion</span>  <br> <span class="product__price" id="pro-price"> 200 ETB</span>
             </div>  
-            <div>
-                    <p>    
-                        DRY SKIN RELIEF – Clinically proven to relieve and repair extra-dry skin 2 <br>
+            <div class="description-container">
+                <h2 class="descrption-container__tittle">Detail Description</h2>
+                    <p id="pro-detail" class="detail-description">    
+                        DRY SKIN RELIEF – Clinically proven to relieve and repair extra-dry skin 2 
                         times better than the leading intensive lotionr <br><br>
-                        ALL DAY MOISTURIZER – Provides instant dry skin relief that lasts for <br>
+                        ALL DAY MOISTURIZER – Provides instant dry skin relief that lasts for 
                         over 24 hours <br><br>
-                        RESTORE MOISTURE – Contains extra-strength, naturally hydrating <br>
+                        RESTORE MOISTURE – Contains extra-strength, naturally hydrating 
                         agents to help even the driest, tightest skin feel soft, supple and restored <br><br>
-                        NON GREASY MOISTURIZER – Non-greasy formula absorbs quickly and <br>
+                        NON GREASY MOISTURIZER – Non-greasy formula absorbs quickly and 
                         won’t clog pores <br><br>
-                        SKIN REPAIR – With Advanced Ceramide Complex, the lotion restores <br>
-                        skin’s ceramide levels to help retain moisture and prevent symptoms of dry, <br>
+                        SKIN REPAIR – With Advanced Ceramide Complex, the lotion restores 
+                        skin’s ceramide levels to help retain moisture and prevent symptoms of dry, 
                         tight skin from returning
                     </p>
             </div>
@@ -49,70 +55,73 @@
 
         </div>                            
     </main>
-     <div>
-        <h3>Product Ingredient Anaysis</h3>
-        <table>
-            <tr>
-                <th>Ingredient</th>
-                <th>Amount in percent</th>
+     <div class="product-ingredient">
+        <h3 class="product-ingredient__tittle">Key Product Ingredient Anaysis</h3>
+        <table class="product-table">
+            <tr class="product-table__row">
+                <th class="product-table__head">Ingredient</th>
+                <th class="product-table__head">Amount in percent</th>
             </tr>
-            <tr>
-                <td>Glycerin</td>
-                <td>13%</td>
+            <tr class="product-table__row">
+                <td class="product-table__data" id="Ingredient-1">Glycerin</td>
+                <td class="product-table__data" id="percent-1">13%</td>
             </tr>
-            <tr>
-                <td>Behentrimonium Chloride</td>
-                <td>17%</td>
+            <tr class="product-table__row">
+                <td class="product-table__data" id="Ingredient-2">Behentrimonium Chloride</td>
+                <td class="product-table__data" id="percent-2">7%</td>
             </tr>  
-            <tr>
-                <td>Isopropyl Palmitate</td>
-                <td>6%</td>
+            <tr class="product-table__row">
+                <td class="product-table__data" id="Ingredient-3">Isopropyl Palmitate</td>
+                <td class="product-table__data" id="percent-3">9%</td>
             </tr>
-            <tr>
-                <td>Butylene Glycon</td>
-                <td>24%</td>
+            <tr class="product-table__row">
+                <td class="product-table__data" id="Ingredient-4">Butylene Glycon</td>
+                <td class="product-table__data" id="percent-4">12%</td>
             </tr>    
-            <tr>
-                <td>Avena Sativa</td>
-                <td>27%</td>
+            <tr class="product-table__row">
+                <td class="product-table__data" id="Ingredient-5">Avena Sativa</td>
+                <td class="product-table__data" id="percent-5">14%</td>
             </tr>
-            <tr>
-                <td>Dimethicone</td>
-                <td>13%</td>
+            <tr class="product-table__row">
+                <td class="product-table__data" id="Ingredient-6">Dimethicone</td>
+                <td class="product-table__data" id="percent-6">4%</td>
             </tr>           
         </table>
      </div>
 
+     <script src="blog_detail.js"></script>
 
-
-     <footer aria-label="foot">
-        <div>
-           <div>
-            <div>
-                <p>
-                    Our 100% natural products are made with regenerative vegan ingredients that have been 
-                    scientifically shown to support a more youthful appearance.
-                </p>
-            </div>
-            <div>
-                <h3>Follow Us On Social</h3>
-                <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo"></a>
-                <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" ></a>
-                <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" ></a>
-                <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" ></a>
+     <footer aria-label="foot" class="footer">
+        <div class="foot-container">
+            <div class="row">
+                <div class="foot-conntainer__col"> 
+                    <p class="about-text2">
+                        Our 100% natural products are made with regenerative vegan ingredients that have been 
+                        scientifically shown to support a more youthful appearance.
+                    </p>
+                    
+                    <div class="social-box">
+                        <h3 class="tittle tittle--follow">Follow Us On Social</h3>
+                        <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo" class="social-box__image"></a>
+                        <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" class="social-box__image"></a>
+                        <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" class="social-box__image"></a>
+                        <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" class="social-box__image"></a>
+ 
+                    </div>
+                </div>
+                <div class="foot-container__col foot-conntainer__col--info">
+                    <h3 class="tittle">information</h3>
+                    <ul class="list">
+                        <li class="list__items"><a href="about us.html" class="list__quick-link">ABOUT US</a></li>
+                        <li class="list__items"><a href="product.html" class="list__quick-link">PRODUCTS</a></li>
+                        <li class="list__items"><a href="blog.html" class="list__quick-link">BLOG</a></li>
+                        <li class="list__items"><a href="contact us.html" class="list__quick-link">CONTACT US</a></li>
+                    </ul>
                 </div>
             </div>
-           <div>
-                <h3>information</h3>
-                <ul>
-                    <li><a href="about us.html">ABOUT US</a></li>
-                    <li><a href="product.html">PRODUCTS</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact us.html">CONTACT US</a></li>
-                </ul>
-           </div>
-           <div >Copyright &#169; All Rights Reserved 2022</div>    
-        </div>
+            <div class="copy">Copyright &#169; All Rights Reserved 2022</div>
+        </div>      
+        
     </footer>
 </body>
 </html>
