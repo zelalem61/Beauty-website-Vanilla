@@ -3,7 +3,7 @@ const products=[
         id : "",
         name: "Lush Face Cream",
         price: "250 ETB",
-        image: "/images/lush face cream.jpg",
+        image: "images/lush face cream.jpg",
         detail: ` Lush face cream is a skincare product used to moisturize and nourish the skin.
         It is typically formulated with ingredients such as natural oils, butters, and antioxidants to hydrate and protect the skin from environmental damage. 
         Some Lush face creams may also contain additional ingredients such as essential oils or herbs to provide specific skincare benefits, such as reducing the appearance of fine lines and wrinkles or improving the overall complexion.
@@ -26,7 +26,7 @@ const products=[
         id : "",
         name: "Rose Deep Hydration Cream",
         price: "300 ETB",
-        image: "/images/rose deep hydration.jpg",
+        image: "images/rose deep hydration.jpg",
         detail: `Rose deep hydration creams are eminent for their delicate saturating properties. They sanitize and tone the skin for a brilliant appearance. Roses additionally contain hostile to weariness properties that can support a dull appearance.
         Fresh Rose Deep Hydration Face Cream is a hyaluronic acid moisturizer that delivers 72-hour deep hydration for skin that is dewy and plumped with moisture.
         Rose can help to calm your skin and reduce redness. It is particularly effective for oily and acne-prone skin. An Anti-Bacterial: Rose can also be used to sweep away dirt and impurities without stripping your skin of its moisture.
@@ -49,7 +49,7 @@ const products=[
         id : "",
         name: "Onion Seed Hair Oil",
         price: "375 ETB",
-        image: "/images/onion black seed hair oil.jpg",
+        image: "images/onion black seed hair oil.jpg",
         detail: `The Onion Seed Hair Oil is a rich blend of 10 natural essential oils that combat hair & scalp problems like hair fall, thinning, breakage, frizziness, inflammation, flakiness and dandruff. 
         The Hair Oil contains 10 essential oils, including Onion Seed Oil, Black Seed Oil, Almond Oil, Jojoba Oil, Sesame Oil, Sunflower Oil, Extra Virgin Olive Oil, Argan Oil, Vitamin E Oil & Lemon Oil. It is non-greasy and free of sulphates, mineral oils and parabens.
         `,
@@ -70,7 +70,7 @@ const products=[
         id : "",
         name: "NIVEA Conditioner",
         price: "400 ETB",
-        image: "/images/NIVEA.jpg",
+        image: "images/NIVEA.jpg",
         detail: `NIVEA Crème is a perfect moisturizing face mask. Apply a thick coat of Crème onto your face. Once done, wipe off excess. Your skin will feel soft and supple and have a healthy glow.
         NIVEA Conditioner Hair Milk Natural Shine with milk and silk proteins provides dull, dry hair with intensive moisture. 
         The care formula regenerates from the inside and outside for noticeably healthy looking hair that shines naturally. 
@@ -94,7 +94,7 @@ const products=[
         id : "",
         name: "Stem face Cream",
         price: "225 ETB",
-        image: "/images/STEM face cream.jpg",
+        image: "images/STEM face cream.jpg",
         detail: `Face Cream that promotes the self-renewal capacity of the skin and reduces the appearance of fine and deep lines, resulting in skin looking smoother, tighter and healthier. 
         Hyperpigmentation becomes lighter and the skin tone becomes even.
         It Helps plump the appearance of skin. Plumper skin looks healthier, maintains better tone and color, and holds hydration for longer periods throughout the day. Helps skin appear from taut and firm
@@ -119,7 +119,7 @@ const products=[
         id : "",
         name: "Collagen Face Cream",
         price: "365 ETB",
-        image: "/images/collagen face cream.jpg",
+        image: "images/collagen face cream.jpg",
         detail: `Collagen face cream helps to fill in fine lines and wrinkles. When our skin is hydrated and plump,
         It helps prevent new fine lines and wrinkles from forming," she said. Collagen creams often function more as moisturizers and can be used in conjunction with other skin care solutions as part of a well-rounded anti-aging routine.
         A face cream with collagen can help dry and damaged skin. By moisturizing the skin, the collagen helps to alleviate dryness and makes the skin softer to the touch. Dry or unbalanced skin can appear blotchy.
@@ -142,7 +142,7 @@ const products=[
         id : "",
         name: "Olay Complete Lotion",
         price: "325 ETB",
-        image: "/images/olay.jpg",
+        image: "images/olay.jpg",
         detail: `Olay Complete Daily Moisturizer with Broad Spectrum Sunscreen SPF 15 and UVA/UVB protection provides 48 hours of hydration for normal skin.
         This lightweight, antioxidant lotion conditions skin surface with Vitamins E, B3 and C to help maintain healthy-looking skin. 
         Unlike many facial moisturizers with sunscreen, Complete All Day facial moisturizer with SPF is non-greasy and lightweight. Its oil-free formula leaves skin with a healthy glow.
@@ -165,7 +165,7 @@ const products=[
         id : "",
         name: "CBD Lotion",
         price: "500 ETB",
-        image: "/images/lot 1.jpg",
+        image: "images/lot 1.jpg",
         detail: `Cannabidiol (CBD) is one of more than 100 cannabinoids in the Cannabis sativa plant. A topical CBD lotion or cream may help relieve muscle aches, joint pain, and skin inflammation.
         CBD skin creams most often use broad-spectrum CBD, which is CBD with either no THC or only trace amounts.
         It also can provide relief at both the surface and deeper muscle levels. In some cases, they can also aid relaxation to help an individual sleep.
@@ -190,7 +190,7 @@ const products=[
         id : "",
         name: "Coconut Massage Lotion",
         price: "345 ETB",
-        image: "/images/mass lot.jpg",
+        image: "images/mass lot.jpg",
         detail: `Coconut massage lotion is well-suited to deep tissue and other high-friction massages. 
         They tend to provide medium glide, and while they can be nourishing to the skin, are typically absorbed fairly slowly.
         It have a medium glide and slide easily but aren't overly slippery. This makes them ideal for deep tissue massage where you'll want a little friction for the force you're applying to muscles. 
@@ -213,7 +213,7 @@ const products=[
         id : "",
         name: "Lavera Face Cream",
         price: "420 ETB",
-        image: "/images/lavera face cream.jpg",
+        image: "images/lavera face cream.jpg",
         detail: `Lavera face cream deactivates aggressive oxygen compounds (radicals) and protects skin cells from premature ageing. 
         The skin is then better able to regenerate and signs of premature ageing are reduced. Q10 is a natural anti-ageing ingredient. As an ingredient in cosmetic products Q10 strengthens the skin's natural protective barrier.
         This Soft Moisturising Cream is NATRUE-certified and contains vitamin E, organic jojoba and organic aloe vera. 
@@ -237,7 +237,7 @@ const products=[
         id : "",
         name: "Crew Conditioner",
         price: "200 ETB",
-        image: "/images/crew conditioner.jpg",
+        image: "images/crew conditioner.jpg",
         detail: `Crew conditioners for men are formulated to work with our shampoos to address common haircare concerns, while providing hydration and helping to detangle hair. 
         Use our Daily Moisturizing Conditioner after our Daily Deep Moisturizing Shampoo to reduce breakage from combing hair by as much as 86%.
         Crew conditioner Recommended for normal to dry hair types. Reduces hair breakage by 86% and protects against dryness. 
@@ -259,7 +259,7 @@ const products=[
         id : "",
         name: "Curel Lotion",
         price: "320 ETB",
-        image: "/images/Curel lotion.jpg",
+        image: "images/Curel lotion.jpg",
         detail: `DRY SKIN RELIEF- Clinically proven to relive and repair extra-dry skin 2 times better than the leading intensive lotion.
         ALL DAY MOSISTUREIZER – Provides instant dry skin relief that lasts for over 24 hours.
         RESTORE MOISTURE- Contains extra –strength, naturally hydrating agents to help even the driest, tightest skin feel soft, supple and restored.
