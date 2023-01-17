@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABOUT</title>
+    <title>Beauty Cosmotics</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.jpg">
+    <link rel="stylesheet" href="about us.css">
 </head>
 <body>
-    <header aria-label="head">
-        <img src="/images/menu bar.jpg" alt="menu-bar">
-            <div>
-                <div>
-                    <img src="/images/logo1.jpg" alt="website-logo">
-                </div>
-                <a href="#"><span> BEAUTY</span> COSMOTICS</a>
-            </div>
-        <nav>
+    <header aria-label="head" class="header">
+        <nav class="navigation">
+            <img src="images/logo1.jpg" alt="website logo" class="logo-image">
+        
+                <a href="#" class="website-name"><span class="website-name__span"> BEAUTY</span> COSMOTICS</a>
             
-                <a href="home.html">HOME</a>
-                <a href="blog.html">BLOG</a>
-                <a href="about us.html">ABOUT</a>
-                <a href="product.html">PRODUCTS</a>
-                <a href="contact us.html">CONTACT US</a>
+                <input type="checkbox" id="check" class="check">
+                <label for="check" class="menu-bar">
+                    <img src="/images/menu bar.jpg" alt="menu-bar__image" class="menu-bar__image">
+                </label>
+            <ul class="head-list">
+                <li class="head-list__items"><a class="head-list__anchor" href="index.html">HOME</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="blog.html">BLOG</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="about us.html">ABOUT</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="product.html">PRODUCTS</a></li>
+                <li class="head-list__items"><a class="head-list__anchor" href="contact us.html">CONTACT US</a></li>
+            </ul>
         </nav>
     </header>
      <section>
-        <div class="img-contain">
-            <img src="/images/about top.jpg" alt="image at about page">
+        <div class="image-container">
+            <img src="/images/about top.jpg" alt="image at about page" class="top-image">
         </div>
      </section>
-     <main>
+     <main> 
+        <h1 class="About-tittle">About Us</h1>
         <div class="about-main">
-            <img src="/images/about-left.jpg" alt="among our products"> <p >
+            <img src="/images/about-left.jpg" alt="among our products" class="image-left">  <p class="about-main__text"> 
                 We're excited that you want to learn more about us. When buying natural beauty products online,
                      you need to be sure you’re getting authentic products from a reliable source. We offer a 
                      detailed description of every product, including a list of ingredients, uses, and benefits. 
                      This way, you make sure you buy organic products that actually do what they say. We have 
                      everything you need to create a calming, self-care, natural beauty routine, from organic 
                      makeup to facial creams for oily skin to strengthening hair oils. <br> <br>
-                     <span>
+                     <span class="about-main__italics">
                     If you have any questions about our organic beauty products online, our staff is trained 
                     and happy to help. Get in touch with us today
                      </span>
@@ -48,7 +53,7 @@
                       With 60% market share of the online B2B Classified space in Ethipoia, the channel focuses 
                       on providing a platform to Small & Medium Enterprises (SMEs), Large Enterprises as well 
                       as individuals. the company’s mission is ‘to make doing business easy’.
-                    <span>
+                    <span class="about-main__not-displayed">
                     Our 100% natural products are made with regenerative vegan ingredients that have been 
                     scientifically shown to support a more youthful appearance. Our clean skin care line is 
                     professionally formulated by our physician founder (no 3rd parties) and is gluten-nut-soy-free, 
@@ -68,38 +73,41 @@
                 </span>
                     
             </p>
-            <button>READ MORE</button>
+            <button onclick="showMore()" class="read-more">READ MORE</button>
         </div>
     </main>
-
-    <footer aria-label="foot">
-        <div>
-           <div>
-            <div>
-                <p>
-                    Our 100% natural products are made with regenerative vegan ingredients that have been 
-                    scientifically shown to support a more youthful appearance.
-                </p>
-            </div>
-            <div>
-                <h3>Follow Us On Social</h3>
-                <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo"></a>
-                <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" ></a>
-                <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" ></a>
-                <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" ></a>
+    <script src="about.js"></script>
+    <footer aria-label="foot" class="footer">
+        <div class="foot-container">
+            <div class="row">
+                <div class="foot-conntainer__col"> 
+                    <p class="about-text2">
+                        Our 100% natural products are made with regenerative vegan ingredients that have been 
+                        scientifically shown to support a more youthful appearance.
+                    </p>
+                    
+                    <div class="social-box">
+                        <h3 class="tittle tittle--follow">Follow Us On Social</h3>
+                        <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo" class="social-box__image"></a>
+                        <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" class="social-box__image"></a>
+                        <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" class="social-box__image"></a>
+                        <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" class="social-box__image"></a>
+ 
+                    </div>
+                </div>
+                <div class="foot-container__col foot-conntainer__col--info">
+                    <h3 class="tittle">information</h3>
+                    <ul class="list">
+                        <li class="list__items"><a href="about us.html" class="list__quick-link">ABOUT US</a></li>
+                        <li class="list__items"><a href="product.html" class="list__quick-link">PRODUCTS</a></li>
+                        <li class="list__items"><a href="blog.html" class="list__quick-link">BLOG</a></li>
+                        <li class="list__items"><a href="contact us.html" class="list__quick-link">CONTACT US</a></li>
+                    </ul>
                 </div>
             </div>
-           <div>
-                <h3>information</h3>
-                <ul>
-                    <li><a href="about us.html">ABOUT US</a></li>
-                    <li><a href="product.html">PRODUCTS</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact us.html">CONTACT US</a></li>
-                </ul>
-           </div>
-           <div >Copyright &#169; All Rights Reserved 2022</div>    
-        </div>
+            <div class="copy">Copyright &#169; All Rights Reserved 2022</div>
+        </div>      
+        
     </footer>
 </body>
 </html>
