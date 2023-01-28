@@ -4,197 +4,283 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Beauty Cosmotics</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" type="image/x-icon" href="images/logo1.jpg">
+    <script src="js/bootstrap.js"></script>
 </head>
 <body>
-    <header aria-label="head">
-        <img src="/images/menu bar.jpg" alt="menu-bar">
-            <div>
-                <div>
-                    <img src="/images/logo1.jpg" alt="website-logo">
-                </div>
-                <a href="#"><span> BEAUTY</span> COSMOTICS</a>
-            </div>
-        <nav>
+
+    <nav class="navbar navbar-expand-lg" style ="background-color: rgb(10, 130, 130)">
+        <div class="container-fluid">
+            <img src="images/logo1.jpg" alt="website logo" class="rounded-circle mx-1" style="width: 40px; height: 40px;">
+          <a class="navbar-brand" href="#">Beauty <span class="text-white">Cosmetics</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto ">
+              <li class="nav-item ms-5">
+                <a class="nav-link active text-white" aria-current="page" href="indext.html">HOME</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white" href="blog.html">BLOG</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white" href="product.html">PRODUCTS</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white" href="contact us.html">CONTACT US</a>
+              </li>
+             
+            </ul>
             
-                <a href="home.html">HOME</a>
-                <a href="blog.html">BLOG</a>
-                <a href="about us.html">ABOUT</a>
-                <a href="product.html">PRODUCTS</a>
-                <a href="contact us.html">CONTACT US</a>
-        </nav>
-    </header>
-    <main>
-        <div >
-            <img src="/images/blog deta top.jpg" alt="image at blog top">
+          </div>
         </div>
-        <section>
-            <div>
-                   
-                        <div>
-                            <a href="blog detail.html"><img src="/images/lavera face cream.jpg" alt="alvera face cream">
-                                <div><span> Lavera Face Cream</span> <br><span> <br>
-                                    This rich cream gives intensive moisture, protects <br>
-                                     dry skin and leaves it feeling soft and supple.
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <div>
-                            <a href="blog detail.html"><img src="/images/collagen face cream.jpg" alt="collagen face cream">
-                                <div><span> Collagen Face Cream</span> <br><span> <br>
-                                    Collagen creams are skin care products that contain <br>
-                                     collagen, an elastic, fibrous protein found in  <br>
-                                     connective tissue. 
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <div>
-                            <a href="blog detail.html"><img src="/images/crew conditioner.jpg" alt="crew conditioner">
-                                <div><span> Crew Conditioner </span><br> <span> <br>
-                                    Crew Daily Conditioner is an organic, energizing <br>
-                                    conditioner that invigorates hair and scalp, while <br>
-                                    immediately detangling. 
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                    
-                  
-                        <div>
-                            
-                                <video controls>
-                                     <source src="/videos/video main.mp4"> 
-                                     <track src="/caption.vtt" kind="captions" srclang="en" label="English" default >
-                                </video>
-                                <a href="blog detail.html">
-                                    Rose Deep Hydration Cream
-                                </a>
+      </nav>
+    
+      <div>
+        <img src="images/blog deta top.jpg" alt="image at the brgining" width="100%">
+      </div> 
+     
 
-                        </div>
 
-                        <div>
-                            <a href="blog detail.html"><img src="/images/lush face cream.jpg" alt="lush face cream">
-                                <audio controls src="/audios/audio.mp3"></audio>
-                            </a>
-                        </div>
+      <div class="container text-center">
+        <h1 class="blog-tittle fs-1 fst-italic mb-3">Blog</h1>
+    <div class="product-one">
+    <div class="grid text-center row  justify-content-between justify-content-around" style="--bs-gap: .25rem 10rem;">
+            
+            
+            
+      <div class="g-col-6 g-col-md-4  col-10 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+          <a class="text-decoration-none" href="blog detail.html?index=10">
+              <img src="images/lavera face cream.jpg" class="card-img-top p-1" alt="blog-image-2" style=" height: 265px;">
+              <div class="card-body">
+                  <h5 class="card-title">Lavera Face Cream</h5>
+                  <div class="card-text text-white"> 
+                    This rich cream gives intensive moisture, protects
+                    dry skin and leaves it feeling soft and supple.
+                  </div>
+              </div>
+              <div>
+                  <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=10"> Read More</a>
+              </div>
+          </a>
+      </div>
+      <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+          <a class="text-decoration-none" href="blog detail.html?index=3">
+              <img src="images/onion black seed hair oil.jpg" class="card-img-top p-1" alt="blog-image-3">
+              <div class="card-body">
+                  <h5 class="card-title">Onion seed hair oil</h5>
+                  <div class="card-text text-white"> 
+                    Onion Seed Hair Oil is a non sticky, non greasy 
+                    and fast absorb hair oil with Onion Black Seed Oil. 
+                  </div>
+              </div>
+              <div>
+                  <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=3"> Read More</a>
+              </div>
+          </a>
+      </div>
 
-                        <div>
-                            <a href="blog detail.html"><img src="/images/NIVEA.jpg" alt="NIVEA cream">
-                                <div><span> NIVEA conditioner</span> <br><span> 
-                                    NIVEA In-Shower Skin Conditioner is a hassle-free 
-                                    way to moisturize skin while in the shower. 
-                                    
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <div>
-                            <a href="blog detail.html"><img src="/images/Curel lotion.jpg" alt="curel lotion">
-                                <div><span> Curel Lotion</span> <br><span> 
-                                    Curel Lotion is a new product for dry skin. 
-                                    This product is said to have been clinically 
-                                    proven to renew and repair dry skin. 
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <div>
-                            <a href="blog detail.html"><img src="/images/STEM face cream.jpg" alt="STEM face cream">
-                                <div><span> STEM Face Cream</span> <br><span> 
-                                    Stem face cream is a cream brought to you by 
-                                    a reliable manufacturer which is intended to 
-                                    improve the overall condition of your skin.
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <div>
-                            <a href="blog detail.html"><img src="/images/onion black seed hair oil.jpg" alt="onion black seed hair oil">
-                                <div><span> Onion black seed hair oil</span> <br><span> 
-                                    Onion Black Seed Hair Oil is a non sticky, non greasy 
-                                    and fast absorb hair oil with Onion Black Seed Oil blended 
-                                    with Almond, Castor, Jojoba, Olive & Coconut Oils.
-                                     
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
+        
+      <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+          <a class="text-decoration-none" href="blog detail.html?index=11">
+              <img src="images/crew conditioner.jpg" class="card-img-top p-1" alt="blog-image-1">
+              <div class="card-body">
+                  <h5 class="card-title">Crew Conditioner</h5>
+                  <div class="card-text text-white"> 
+                    Crew Daily Conditioner is an organic, energizing 
+                    conditioner that invigorates hair and scalp.
+                  </div>
+              </div>
+              <div>
+                  <a class="text-decoration-none btn btn-primary "href="blog detail.html?index=11"> Read More</a>
+              </div>
+          </a>
+      </div>
+  
+  <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+          <video controls class="product__video mt-5" style="height: 220px;">
+              <source src="/videos/video main.mp4"> 
+              <track src="/videos/caption.vtt" kind="captions" srclang="en" label="English" default >
+        </video>
+        <a class="text-decoration-none" href="blog detail.html?index=2">
+          <h5 class="card-title ">
+              Rose Deep Hydration Cream
+          </h5>
+      </a>
+  </div>
+  <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+        <a class="text-decoration-none" href="blog detail.html?index=1"><img src="images/lush face cream.jpg"  alt="lush face cream" class="card-img-top p-1">
+          <h5 class="card-title"> Lush Face Cream </h5>
 
-                        <div>
-                            <a href="blog detail.html"><img src="/images/olay.jpg" alt="Olay Complete Lotion">
-                                <div><span> Olay Complete Lotion</span> <br><span> 
-                                    Olay Complete Lotion All Day Moisturizer with SPF 15 for Normal Skin is a lightweight moisturizer that works to keep the skin hydrated while protecting from the sun. 
-                                     
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <div>
-                            <a href="blog detail.html"><img src="/images/lot 1.jpg" alt="CBD lotion">
-                                <div><span> CBD lotion</span> <br><span> 
-                                    Cannabidiol (CBD) is one of more than 100 cannabinoids in the Cannabis sativa plant. A topical CBD lotion or cream may help relieve muscle aches, joint pain, and skin inflammation.
-                                     
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <div>
-                            <a href="blog detail.html"><img src="/images/mass lot.jpg" alt="massage lotion">
-                                <div><span> coconut Massage lotion</span> <br><span> 
-                                    This rich Coconut Massage Lotion is naturally enriched with pure Fractionated Coconut Oil! The controlled glide and skin nutrient benefits make this healthy choice for professional massage.
-                                     
-                                </span></div>
-                            </a>
-                            <button><a href="blog detail.html">Read More</a></button>
-                        </div>
-                        <section>
-                            <div>
-                                <button>&lt;</button>
-                                <button >1</button>
-                                <button >2</button>
-                                <button >3</button>
-                                <button >4</button>
-                                <button >&gt;</button> 
-                            </div>
-                            
-                        </section>
+        </a>
+      <audio controls src="/audios/audio.mp3" class="product__audio-control" style="width: 100%; margin-top: 40px;"></audio>
+      </div>
+  <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+      <a class="text-decoration-none" href="blog detail.html?index=4">
+          <img src="images/NIVEA.jpg" class="card-img-top p-1" alt="blog-image-1" style=" height: 265px;">
+          <div class="card-body">
+              <h5 class="card-title">NIVEA conditioner</h5>
+              <div class="card-text text-white"> 
+                NIVEA In-Shower Skin Conditioner is a hassle-free 
+                way to moisturize skin while in the shower.
+              </div>
+          </div>
+          <div>
+              <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=4"> Read More</a>
+          </div>
+        </a>
+      </div>
+    </div>
+</div>
 
-                        
-                       
-                </div>
-        </section>
-    </main>
+   
+<div class="product-two" style="display: none;"> <!--I can make display none with the help of bootstrap class "d-none" but it is not suitable to change the attribute by javascript-->
 
-    <footer aria-label="foot">
-        <div>
-           <div>
-            <div>
-                <p>
-                    Our 100% natural products are made with regenerative vegan ingredients that have been 
-                    scientifically shown to support a more youthful appearance.
-                </p>
-            </div>
-            <div>
-                <h3>Follow Us On Social</h3>
-                <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo"></a>
-                <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" ></a>
-                <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" ></a>
-                <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" ></a>
-                </div>
-            </div>
-           <div>
-                <h3>information</h3>
-                <ul>
-                    <li><a href="about us.html">ABOUT US</a></li>
-                    <li><a href="product.html">PRODUCTS</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact us.html">CONTACT US</a></li>
-                </ul>
-           </div>
-           <div >Copyright &#169; All Rights Reserved 2022</div>    
+    <div class="grid text-center row justify-content-between justify-content-around" style="--bs-gap: .25rem 10rem;">
+            
+            
+            
+      <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+          <a class="text-decoration-none" href="blog detail.html?index=12">
+              <img src="images/Curel lotion.jpg" class="card-img-top p-1" alt="blog-image-2">
+              <div class="card-body">
+                  <h5 class="card-title">Curel Lotion</h5>
+                  <div class="card-text text-white"> 
+                    Curel Lotion is a new product for dry skin. 
+                    This product is said to have been clinically proven.
+                  </div>
+              </div>
+              <div>
+                  <a class="text-decoration-none btn btn-pwarning" href="blog detail.html?index=12"> Read More</a>
+              </div>
+          </a>
+      </div>
+      <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+          <a class="text-decoration-none" href="blog detail.html?index=5">
+              <img src="images/STEM face cream.jpg" class="card-img-top p-1" alt="blog-image-3" style=" height: 265px;">
+              <div class="card-body">
+                  <h5 class="card-title">Stem face cream</h5>
+                  <div class="card-text text-white"> 
+                    Stem face cream is a cream brought to you by 
+                    a reliable manufacturer. 
+                  </div>
+              </div>
+              <div>
+                  <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=5"> Read More</a>
+              </div>
+          </a>
+      </div>
+
+        
+      <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+          <a class="text-decoration-none" href="blog detail.html?index=6">
+              <img src="images/collagen face cream.jpg" class="card-img-top p-1" alt="blog-image-1">
+              <div class="card-body">
+                  <h5 class="card-title">Collagen face cream</h5>
+                  <div class="card-text text-white"> 
+                    Collagen creams are skin care products that contain 
+                    collagen, an elastic found in tissue.                           </div>
+              </div>
+              <div>
+                  <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=6"> Read More</a>
+              </div>
+          </a>
+      </div>
+  
+  <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+        <a class="text-decoration-none" href="blog detail.html?index=7">
+          <img src="images/olay.jpg" class="card-img-top p-1" alt="blog-image-1">
+          <div class="card-body">
+              <h5 class="card-title">Olay Complete Lotion</h5>
+              <div class="card-text text-white"> 
+                Olay Complete Lotion All Day Moisturizer with SPF 15 for Normal Skin is a lightweight moisturizer.
+              </div>
+          </div>
+          <div>
+              <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=7"> Read More</a>
+          </div>
+      </a>
+  </div>
+  <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+        <a class="text-decoration-none" href="blog detail.html?index=8">
+          <img src="images/lot 1.jpg" class="card-img-top p-1" alt="blog-image-1">
+          <div class="card-body">
+              <h5 class="card-title">CBD lotion</h5>
+              <div class="card-text text-white"> 
+                Cannabidiol (CBD) is one of more than 100 cannabinoids in the Cannabis sativa plant.
+              </div>
+          </div>
+          <div>
+              <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=8"> Read More</a>
+          </div>
+      </a>
+    </div>
+  <div class="g-col-6 g-col-md-4 card text-bg-dark mb-3 text-center mx-4" style="width: 18rem;">
+      <a class="text-decoration-none" href="blog detail.html?index=9">
+          <img src="images/mass lot.jpg" class="card-img-top p-1" alt="blog-image-1" style=" height: 265px;">
+          <div class="card-body">
+              <h5 class="card-title">Coconut massage lotion</h5>
+              <div class="card-text text-white"> 
+                This rich Coconut Massage Lotion is naturally enriched with pure Coconut Oil. 
+              </div>
+          </div>
+          <div>
+              <a class="text-decoration-none btn btn-primary" href="blog detail.html?index=9"> Read More</a>
+          </div>
+      </a>
+  </div>
+    </div>
+</div>
+    <section>
+    
+      <div class="vegeterian__sliders m-lg-5 m-sm-0 m-md-2 d-md-flex justify-content-md-center  ">
+                
+        <button type="button" onclick="slide()" class="btn btn-outline-primary fs-6 m-2 ">&#10094;</button>
+        <button type="button" onclick="slide()" class="btn btn-outline-primary fs-6 m-2 ">1</button>
+        <button type="button" onclick="slide()" class="btn btn-outline-primary fs-6 m-2 ">2</button>
+        <button type="button" onclick="slide()" class="btn btn-outline-primary fs-6 m-2">&#10095;</button>
+     </div>
+      
+  </section>
+  </div>
+
+<script src="blog.js"></script>
+
+
+  <footer aria-label="footer" class=" footer container-fluid bg-dark text-center text-lg-start text-white">
+    <div class="row mt-3 justify-content-between p-5">
+      <div class="col-lg-5 col-md-6 mb-4">
+        <div class="" >
+          <p class="">
+            Our 100% natural products are made with regenerative vegan ingredients that have been scientifically shown to support a more youthful appearance.
+          </p>
+          <div class="social-box mt-5">
+            <h5 class=" mb-4 font-weight-bold">Follow Us On Social</h5>
+            <a href="https://www.facebook.com/johnny.1158/"><img src="images/facebook.jpg" alt="facebooklogo" class="rounded-circle " style="width: 30px; height: auto;"></a>
+            <a href="https://twitter.com/MathiJo1"><img src="images/twitter.jpg" alt="twitter logo" class="rounded-circle " style="width: 30px; height: auto;"></a>
+            <a href="https://www.instagram.com/prime12961/"><img src="images/instagram.jpg" alt="instagram logo" class="rounded-circle " style="width: 30px; height: auto;"></a>
+            <a href="https://t.me/JoyeJohn"><img src="images/telegram.jpg" alt="telegram logo" class="rounded-circle " style="width: 30px; height: auto;"></a>
+
         </div>
-    </footer>
-</body>
-</html>
+      </div>
+      </div>
+      
+      <div class="d-flex flex-column col-lg-3 col-md-g mb-4 mb-md-0">
+        <h6 class=" mt-3 mr-3 mb-4 font-weight-bold fs-4">Information</h6>
+        <p><a href="about us.html" class="nav-link active text-white">ABOUT US</a></p>
+        <p><a href="product.html" class="nav-link active text-white">PRODUCTS</a></p>
+        <p><a href="blog.html" class="nav-link active text-white">BLOG</a></p>
+        <p><a href="contact us.html" class="nav-link active text-white">CONTACT US</a></p>
+      </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">Copyright © All Rights Reserved 2022</div>
+  </footer>
+
+  </body>
+  </html>
